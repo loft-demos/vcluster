@@ -1,13 +1,6 @@
 <br>
 <a href="https://www.vcluster.com/docs/vcluster/introduction/what-are-virtual-clusters"><img src="https://cdn.prod.website-files.com/60d28872831dd0f87a178997/661ca132697136342511fa22_vCluster%20Logo.svg" width="400"></a>
 
-### **[Website](https://www.vcluster.com)** • **[Quickstart](https://www.vcluster.com/docs/get-started/)** • **[Documentation](https://www.vcluster.com/docs/what-are-virtual-clusters)** • **[Blog](https://loft.sh/blog)** • **[Twitter](https://twitter.com/loft_sh)** • **[Slack](https://slack.loft.sh/)**
-
-![Latest Release](https://img.shields.io/github/v/release/loft-sh/vcluster?style=for-the-badge&label=Latest%20Release&color=%23007ec6)
-![License: Apache-2.0](https://img.shields.io/github/license/loft-sh/vcluster?style=for-the-badge&color=%23007ec6)
-
-[![Join us on Slack!](docs/static/media/slack.svg)](https://slack.loft.sh/) [![Open in DevPod!](https://devpod.sh/assets/open-in-devpod.svg)](https://devpod.sh/open#https://github.com/loft-sh/vcluster)
-
 Virtual clusters are fully functional Kubernetes clusters nested inside a physical host cluster providing better isolation and flexibility to support multi-tenancy. Multiple teams can operate independently within the same physical infrastructure while minimizing conflicts, maximizing autonomy, and reducing costs.
 
 Virtual clusters run inside host cluster namespaces but function as separate Kubernetes clusters, with their own API server, control plane, syncer, and set of resources. While virtual clusters share the physical resources of the host cluster (such as CPU, memory, and storage), they manage their resources independently, allowing for efficient utilization and scaling.
@@ -25,8 +18,6 @@ Virtual clusters interact with the host cluster for resource scheduling and netw
 ## Benefits
 
 Virtual clusters provide immense benefits for large-scale Kubernetes deployments and multi-tenancy.
-
-<img src="docs/static/media//diagrams/vcluster-comparison.png" width="500">
 
 ### Robust security and isolation
 
@@ -73,11 +64,6 @@ Virtual clusters provide immense benefits for large-scale Kubernetes deployments
 ## Quick Start
 
 Refer to our [quick start guide](https://www.vcluster.com/docs/vcluster/) to deploy your first vCluster!
-
-## Contributing
-
-Thank you for your interest in contributing! Please refer to
-[CONTRIBUTING.md](https://github.com/loft-sh/vcluster/blob/main/CONTRIBUTING.md) for guidance.
 
 ## License
 
