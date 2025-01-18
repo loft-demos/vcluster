@@ -9,12 +9,6 @@ Virtual clusters interact with the host cluster for resource scheduling and netw
 
 <br>
 
-<p align="center">
-⭐️ <strong>Do you like vcluster? Support the project with a star</strong> ⭐️
-</p>
-
-<br>
-
 ## Benefits
 
 Virtual clusters provide immense benefits for large-scale Kubernetes deployments and multi-tenancy.
