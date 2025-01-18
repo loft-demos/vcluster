@@ -7,8 +7,6 @@ Virtual clusters run inside host cluster namespaces but function as separate Kub
 
 Virtual clusters interact with the host cluster for resource scheduling and networking but maintain a level of abstraction to ensure operations within a virtual cluster don't directly affect the host cluster's global state.
 
-<br>
-
 ## Benefits
 
 Virtual clusters provide immense benefits for large-scale Kubernetes deployments and multi-tenancy.
